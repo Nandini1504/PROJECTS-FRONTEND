@@ -19,10 +19,14 @@
 }
 .bg-grey{
     background-color: #121212
+    
 }
 .rounded{
     border-radius: 10px;
 }
 .m-2{
     margin: 7px;
+}
+.p-1{
+    padding: 10px;
 }

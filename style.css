@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,14 +9,51 @@
 }
 .left{
     width: 30vw;
+    
 }
 .right{
     width: 70vw;
 }
+
 .home ul li{
     display: flex;
     gap: 15 px;
     width: 14px;
     list-style: none;
-    padding-top: 20px;
+    padding-top: 14 px;
+    font-weight: bold;
+}
+.heading{
+    display: flex;
+    gap: 15 px;
+    width: 344px;
+    padding-top: 14 px;
+    padding: 23px 14px; 
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+
+}
+.heading img{
+    width: 30 px;
+
+}
+.library{
+    min-height: 80vh;
+    position:relative;
+}
+.footer{
+    display:flex;
+    font-size:10px;
+    color:grey;
+    gap : 13px;
+    position:absolute;
+    bottom:0;
+}
+.library{
+    min-height: 15px;
+}
+.footer a{
+    color:grey;
+
 }
